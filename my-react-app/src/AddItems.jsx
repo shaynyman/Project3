@@ -16,9 +16,9 @@ function AddItems({ setItems }) {           //Function to update list of items
       <input 
         value={input}
         onChange={(e) => setInput(e.target.value)}      //Updates the state when something is typed
-        placeholder="Add an item..."
+        placeholder="Add an item..."                    //Button to submit form and add new item
       />
-      <button type="submit">Add New List Item</button>                //Button to submit form and add new item
+      <button type="submit">Add New List Item</button>                
     </form>
   );
 }
